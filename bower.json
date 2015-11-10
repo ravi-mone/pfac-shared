@@ -8,7 +8,7 @@
   ],
   "license": "Proprietary",
   "private": true,
-  "main": "./directives/filters.js",
+  "main": ["./directives/filters.js", "./lib/angular-datatables/dist/plugins/*", "services/services.js"],
   "ignore": [
     "**/.*",
     "node_modules",
