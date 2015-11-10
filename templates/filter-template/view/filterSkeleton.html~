@@ -1,0 +1,18 @@
+<div class=" more-filter-link btn-group filter-box" dropdown auto-close="disabled">
+                <button type="button" class="btn btn-filter-trigger" dropdown-toggle ng-disabled="disabled"> <span class="label-open"><i class="icon filter"></i>{{'PROJECT_LIST_MORE_FILTERS'|translate}}</span><span class="label-close">{{'MORE_FILTERS_CLOSE_FILTERS'|translate}}</span> <span class="caret-to-cross"></span> </button>
+                <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="single-button">
+                  <li>
+                    <div class="filter-options">
+                      <div class="filter-items">
+                        <div ng-transclude> </div>
+                                              
+                        
+                      </div>
+                      <div class="filter-footer">
+                        <button type="button" class="btn btn-primary" ng-click="callFilter()">{{'MORE_FILTERS_APPLY_FILTERS'|translate}}</button>
+                        <button type="button" class="btn btn-secondary with-outline" ng-click="undoFilter()">{{'MORE_FILTERS_RESET'|translate}}</button>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>

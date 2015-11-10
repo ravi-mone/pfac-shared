@@ -1,0 +1,11 @@
+<div class="dropdown-list" dropdown>
+	<button id="position-button" type="button" dropdown-toggle ng-disabled="disabled">
+		{{ (selectedval[mapto]) || title }}
+		<span	class="icon down-arrow"></span>
+	</button>
+	<ul class="dropdown-menu" role="menu" aria-labelledby="position-button">
+		<li ng-repeat="(key,value) in listobj" role="menuitem"	ng-click="setFilter($event, '{{value[mapto]}}', '{{mapto}}')" >
+			<a href="javascript:void(0);">{{value[mapto]}}</a>
+		</li>
+	</ul>
+</div>

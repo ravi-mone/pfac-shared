@@ -1,0 +1,9 @@
+<div class="filter-item">
+  <div class="filter-title">{{title}}</div>
+  <div class="dropdown-list-sm">
+    <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ng-click="changeFilterDisplayStatus($event)">{{(selectedval[mapto])  || "Keyword"}} <span class="icon down-arrow"></span> </button>
+    <ul class="dropdown-menu" aria-labelledby="dLabel">
+      <li ng-repeat="(key,value) in listobj" ng-click="setFilter($event, '{{value[mapto]}}', '{{mapto}}')" ><a href="javascript:void(0);">{{value[mapto]}}</a></li>
+    </ul>
+  </div>
+</div>
