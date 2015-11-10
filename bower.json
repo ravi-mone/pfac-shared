@@ -1,7 +1,7 @@
 {
   "name": "pp-service-workflow",
   "description": "ParcelPoint Frontend Workflow Service",
-  "version": "0.2.13",
+  "version": "0.2.14",
   "homepage": "https://github.com/ravi-mone/pfac-shared",
   "authors": [
     "Me"
